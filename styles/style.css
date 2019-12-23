@@ -1,0 +1,110 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    text-align: center;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    padding: 5px 18px;
+}
+
+
+nav .menu-button {
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-image: url(../images/menu.png);
+    background-position: center;
+    background-size: cover;
+    margin-right: 30px;
+    
+}
+nav .search-button {
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-image: url(../images/search.png);
+    background-position: center;
+    background-size: cover;
+}
+
+nav .section {
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 14.25px;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    padding: 0 30px;
+}
+
+nav .nyt-logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-image: url(../images/nyt-logo.png);
+    background-position: center;
+    background-size: cover;
+    width: 190px;
+    height: 24px;
+}
+
+nav .nav-button {
+    display: block;
+    padding: 8px 12px;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    background-color: #567b95;
+    border: 1px solid #326891;
+    color: white;
+    font-size: 11px;
+    font-weight: 700;
+    border-radius: 4px;
+    
+}
+
+nav #subscribe {
+    margin-right: 8px;
+    margin-left: 30px;
+}
+
+article {
+    display: inline-block; /**text-align: center on body**/
+    width: 931px;
+}
+
+article img {
+    width: 931px;
+    width: 100%;
+}
+
+article header h1{
+    font-size: 35px;
+    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 45px;
+    position: relative;
+    left: 15%;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+article figcaption {
+    font-size: 16px;
+    color: #666;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    width: 80%;
+    text-align: left;
+    margin: 5px 0;
+}
